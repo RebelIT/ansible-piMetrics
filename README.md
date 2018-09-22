@@ -1,5 +1,5 @@
-# piMetrics
-Grafana with InfluxDB on RaspberryPi
+# ansible-piMetrics
+ansible for installing Grafana with InfluxDB on RaspberryPi
 
 ## All projects
 ### Secrets:
