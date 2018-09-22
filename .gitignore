@@ -1,0 +1,7 @@
+*.txt
+*.retry
+*secrets.yml
+*/dev/*
+secrets.rb
+.DS_Store
+.git

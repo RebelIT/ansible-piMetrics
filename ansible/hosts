@@ -1,0 +1,14 @@
+###############################
+## Grafana with influxDB project
+[piGrafana:vars]
+  grafana_version=4.5.2
+  hostname=piDev01
+  ssh_user=pi
+  ansible_become=true
+
+[piGrafana:children]
+  grafana
+
+[grafana]
+  10.0.0.0
+###############################
