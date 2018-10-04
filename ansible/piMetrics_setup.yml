@@ -6,7 +6,7 @@
 
   roles:
     ## Only use update on initial build, will upgrade application if run multiple times.
-    - update
+    # - update
     - common
     - reboot
     - influx_db

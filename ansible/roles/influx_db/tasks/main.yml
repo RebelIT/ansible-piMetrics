@@ -11,11 +11,11 @@
       update_cache: yes
     with_dict: "{{ packages }}"
 
-    - name: Start service
-      service:
-        name: influxdb
-        state: started
-        enabled: true
+  - name: Start service
+    service:
+      name: influxdb
+      state: started
+      enabled: true
 
   - name: Query existing DB users
     shell: "curl -XPOST http://localhost:8086/query --data-urlencode 'q=SHOW USERS'"
