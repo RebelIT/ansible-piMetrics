@@ -15,7 +15,7 @@ ansible for installing Grafana with InfluxDB on RaspberryPi
 ## Grafana with Influx Datastore on RaspberryPi3
 ### Notes:
 * Home setup for Grafana and InfluxDB on a raspberryPi3
-* Tested on Stretch - NOOBS
+* Tested on Stretch lite
 
 ### Usage:
 * Update hosts with IP or Hostname under the [piGrafana]
