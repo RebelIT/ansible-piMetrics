@@ -15,6 +15,6 @@ packages:
 
 goRepos:
   personal:
-    url: github.com/RebelIT/ansible-piDAK
+    url: github.com/RebelIT/ansible-piMetrics
   mux:
     url: github.com/gorilla/mux
