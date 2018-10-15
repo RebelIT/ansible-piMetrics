@@ -7,7 +7,8 @@
   roles:
     ## Only use update on initial build, will upgrade application if run multiple times.
     # - update
-    - common
-    - reboot
-    - influx_db
-    - grafana
+    # - common
+    # - reboot
+    # - influx_db
+    # - grafana
+    - api

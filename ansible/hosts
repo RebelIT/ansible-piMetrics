@@ -2,13 +2,15 @@
 ## Grafana with influxDB project
 [piGrafana:vars]
   grafana_version=4.5.2
-  hostname=piDev01
+  hostname=piMetrics
   ssh_user=pi
-  ansible_become=true
+  #ansible_become=true
+  gopath=/home/pi/go/
+  repo=github.com/RebelIT/ansible-piMetrics
 
 [piGrafana:children]
   grafana
 
 [grafana]
-  10.0.0.0
+  10.0.0.xxx
 ###############################

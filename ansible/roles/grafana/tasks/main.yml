@@ -35,3 +35,4 @@
       name: grafana-server
       state: started
       enabled: true
+    become: yes
