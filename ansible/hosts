@@ -4,13 +4,13 @@
   grafana_version=4.5.2
   hostname=piMetrics
   ssh_user=pi
-  #ansible_become=true
-  gopath=/home/pi/go/
-  repo=github.com/RebelIT/ansible-piMetrics
+  app=metrics
+  hardware=pi
+  telegraf_db=10.0.0.106
 
 [piGrafana:children]
   grafana
 
 [grafana]
-  10.0.0.xxx
+  10.0.0.106
 ###############################

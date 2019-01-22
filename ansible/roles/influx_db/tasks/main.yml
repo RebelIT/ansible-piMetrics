@@ -16,7 +16,6 @@
       name: influxdb
       state: started
       enabled: true
-    become: yes
 
   - name: Query existing DB users
     shell: "curl -XPOST http://localhost:8086/query --data-urlencode 'q=SHOW USERS'"

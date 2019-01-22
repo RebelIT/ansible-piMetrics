@@ -8,3 +8,5 @@ packages:
     ver: "present"
 
 download_source: "deb https://dl.bintray.com/fg2it/deb stretch main"
+
+ansible_become: true

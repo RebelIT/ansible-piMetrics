@@ -32,3 +32,6 @@ Grafana with InfluxDB
 https://github.com/fg2it/grafana-on-raspberry/wiki
 https://www.circuits.dk/install-grafana-influxdb-raspberry/
 ```
+
+### API to control it!
+Run the [rpIoT](https://github.com/RebelIT/rpIoT) ansible against it using the /api/display/{on|off} endpoints to turn the display on and off on a schedule.
