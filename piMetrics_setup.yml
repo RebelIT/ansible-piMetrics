@@ -2,11 +2,10 @@
 - hosts:
     piGrafana
   connection: ssh
-  remote_user: "{{ ssh_user }}"
+  remote_user: pi
 
   roles:
     - common
     - reboot
     - influx_db
     - grafana
-    - telegraf

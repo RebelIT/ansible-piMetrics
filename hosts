@@ -3,14 +3,10 @@
 [piGrafana:vars]
   grafana_version=4.5.2
   hostname=piMetrics
-  ssh_user=pi
-  app=metrics
-  hardware=pi
-  telegraf_db=10.0.0.106
 
 [piGrafana:children]
   grafana
 
 [grafana]
-  10.0.0.106
+  10.0.0.158
 ###############################

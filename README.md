@@ -4,7 +4,7 @@ ansible for installing Grafana with InfluxDB on RaspberryPi
 ## All projects
 ### Secrets:
 * Upload your ssh key to your pi else ansible will fail
-* All roles have a copy of the same vault (temp until a golbal vault is created) - Update as necessary
+* All roles have a copy of the same vault (temp until a global vault is created) - Update as necessary
 
   ```
   db_admin: 'xxx' #influx db admin username
